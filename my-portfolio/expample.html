@@ -1,0 +1,92 @@
+<section class="section scroll-effect" id="portfolio" data-js-scroll-effect>
+  <div class="section__inner container">
+    <header class="section__header">
+      <h2 class="section__title">
+        My <span class="accent-color">Portfolio</span>
+      </h2>
+    </header>
+    <div class="section__body">
+      <div class="portfolio">
+        <ul class="portfolio__list grid">
+          <!-- Единственная карточка проекта -->
+          <li class="portfolio__item grid__item">
+            <article class="portfolio-card card card--hoverable" data-js-gallery-container>
+              <!-- Обложка проекта (ссылка на полноразмерное изображение) -->
+              <a 
+                class="portfolio-card__image-wrapper portfolio-card__image-wrapper--border" 
+                href="./images/projects/your-project_full.jpg" 
+                data-js-gallery-item='{"caption": "Название вашего проекта"}' 
+                title="Открыть изображение в полном размере"
+              >
+                <img 
+                  class="portfolio-card__image" 
+                  src="./images/projects/your-project.jpg" 
+                  alt="Скриншот проекта" 
+                  width="400" 
+                  height="320" 
+                  loading="lazy" 
+                />
+              </a>
+              <!-- Контент карточки -->
+              <div class="portfolio-card__body">
+                <time class="portfolio-card__date" datetime="2025-01">Январь 2025</time>
+                <h3 class="portfolio-card__title">
+                  <a 
+                    class="portfolio-card__link" 
+                    href="https://ваш-сайт.ру" 
+                    target="_blank" 
+                    title="Открыть сайт в новой вкладке"
+                  >
+                    Название вашего проекта
+                  </a>
+                </h3>
+                <div class="portfolio-card__description">
+                  Краткое описание проекта. Что вы сделали, какие задачи решали, какие технологии применили.
+                </div>
+                <!-- Стек технологий (иконки) -->
+                <div class="stack">
+                  <ul class="stack__list flow">
+                    <li class="stack__item">
+                      <img 
+                        class="stack__image" 
+                        src="./images/icons/react.svg" 
+                        alt="React" 
+                        title="React" 
+                        width="36" 
+                        height="36" 
+                        loading="lazy" 
+                      />
+                    </li>
+                    <li class="stack__item">
+                      <img 
+                        class="stack__image" 
+                        src="./images/icons/typescript.svg" 
+                        alt="TypeScript" 
+                        title="TypeScript" 
+                        width="36" 
+                        height="36" 
+                        loading="lazy" 
+                      />
+                    </li>
+                    <li class="stack__item">
+                      <img 
+                        class="stack__image" 
+                        src="./images/icons/vite.svg" 
+                        alt="Vite" 
+                        title="Vite" 
+                        width="36" 
+                        height="36" 
+                        loading="lazy" 
+                      />
+                    </li>
+                    <!-- Добавьте сюда другие иконки по необходимости -->
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

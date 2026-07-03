@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>My portfolio - Nurullina Kamila</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header" data-js-header>
+      <div class="header__inner" >
+        <a class="header__logo logo" href="/" aria-label="Home page" title="To home page">
+          <img src="icons/logo.png" alt="logo" class="logo_icon">
+        </a>
+        <nav class="header_menu">
+          <ul class="header_menu_list">
+            <li class="'header_menu_item">
+              <a class="header_menu_link" href='#about'> About </a>
+            </li>
+            <li class="'header_menu_item">
+              <a class="header_menu_link" href='#skills'> Skills </a>
+            </li>
+            <li class="'header_menu_item">
+              <a class="header_menu_link" href='#portfolio'> Portfolio </a>
+            </li>
+            <li class="'header_menu_item">
+              <a class="header_menu_link" href='#contacts'> Contacts </a>
+            </li>
+          </ul>
+        </nav>
+        <label class="header_theme-switcher" data-js-theme-switcher>
+          <span>Switch theme</span>
+          <input class="theme-switcher_checkbox" type="checkbox" data-js-theme-switcher-checkbox/>
+          <span class="theme-switcher__icon-wrapper--dark-theme">
+            <img class="icon" src="icons/moon.png" alt="darktheme">
+          </span>
+          <span class="theme-switcher__icon-wrapper--light-theme">
+            <img class="icon" src="icons/sun.png" alt="lighttheme">
+          </span>
+        </label>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="content_sections">
+        <div class="hero_section" id="about">
+          <div class="hero_inner container">
+            <div class="hero_body">
+              <h1 class="hero__title live-typing" data-js-live-typing>
+                <div class="hero_text">Hello! I'm <a class="special_text">Kamila Nurullina</a>, frontend developer.</div>
+                <div class="hero_text_2">Check out what I can do!</div>
+              </h1>
+            </div>
+            <div class="hero_inner_pic">
+              <img class="main_pic" src="icons/pic.png" alt="main pic">
+            </div>
+          </div>
+        </div>
+        <div class="section skills" id="skills">
+          <div class="skills_inner container">
+            <div class="skills_column">
+              <h2 class="skills_title">
+                <span class="accent-color">Hard</span> skills
+              </h2>
+              <div class="skills_body">
+                <ul class="skills_list" data-js-scroll-effect>
+                  <li class="skills_item">
+                    <div class="skill-card"> HTML (HTML5)</div>
+                  </li>
+                  <li class="skills_item">
+                    <div class="skill-card"> CSS (CSS3)</div>
+                  </li>
+                  <li class="skills_item">
+                    <div class="skill-card"> JavaScript</div>
+                  </li>
+                  <li class="skills_item">
+                    <div class="skill-card"> React</div>
+                  </li>
+                  <li class="skills_item">
+                    <div class="skill-card"> Figma, Adobe Photoshop</div>
+                  </li>
+                  <li class="skills_item">
+                    <div class="skill-card"> English level - B2</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="section scroll-effect" id="portfolio" data-js-scroll-effect>
+          <div class="section__inner container">
+            <header class="section__header">
+              <h2 class="section__title">
+                My <span class="accent-color">Portfolio</span>
+              </h2>
+            </header>
+            <div class="section__body">
+              <div class="portfolio">
+                <ul class="portfolio__list grid">
+                  <li class="portfolio__item grid__item">
+                    <article class="portfolio-card card card--hoverable" data-js-gallery-container>
+                      <a 
+                        class="portfolio-card__image-wrapper portfolio-card__image-wrapper--border" 
+                        href="regist/reg.html" 
+                        data-js-gallery-item='{"caption": "signin/signup"}' 
+                        title="Открыть изображение в полном размере"
+                      >
+                        <img 
+                          class="portfolio-card__image" 
+                          src="icons/reg.png" 
+                          alt="скрин проекта" 
+                          width="400" 
+                          height="320" 
+                          loading="lazy" 
+                        />
+                      </a>
+                      <div class="portfolio-card__body">
+                        <h3 class="portfolio-card__title">
+                          <a 
+                            class="portfolio-card__link" 
+                            href="regist/reg.html" 
+                            target="_blank" 
+                            title="Открыть сайт в новой вкладке"
+                          >
+                            Страница для регистрации или входа в аккаунт.
+                          </a>
+                        </h3>
+                        <div class="portfolio-card__description">
+                          Краткое описание проекта. Что вы сделали, какие задачи решали, какие технологии применили.
+                        </div>
+                      </div>
+                    </article>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <fotter class="footer_container" id="contacts">
+      <div class="footer__inner_card">
+        <div class="footer_quote">
+          <div class="footer_title">Do you want to contact me?</div>
+        </div>
+        <div class="footer_contacts">
+          <ul class="socials_list">
+            <li class="socials_item">
+              <a class="socials_link" href="https://github.com/nrkam">
+                <img class="icon" src="icons/github.png" alt="GitHub">
+                <span>@nrkam</span>
+              </a>
+            </li>
+            <li class="socials_item">
+              <a class="socials_link" href="https://t.me/shnurkami">
+                <img class="icon" src="icons/tg.png" alt="Telegram">
+                <span>@shnurkami</span>
+              </a>
+            </li>
+            <li class="socials_item">
+              <a class="socials_link">
+                <img class="icon" src="icons/gmail.png" alt="gmail">
+                <span>krnurullina@gmail.com</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_copyright"> © Nurullina Kamila, 2026 </div>
+      </div>      
+    </fotter>
+
+    <script src="index.js"></script>
+  </body>
+
+</html>
