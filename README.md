@@ -23,12 +23,12 @@ This site showcases my projects, skills, and contact information.
 - JavaScript
 
 ### Screenshots
-<table>
-  <tr>
-    <td align="center"><img src="https://github.com/nrkam/MyPortfolio/blob/master/my-portfolio/components/scrins_for_github/2026-08-20_12-12-34.png" width="400"></td>
-    <td align="center"><img src="https://github.com/nrkam/MyPortfolio/blob/master/my-portfolio/components/scrins_for_github/2026-08-20_12-12-49.png" width="400"></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/nrkam/MyPortfolio/blob/master/my-portfolio/components/scrins_for_github/2026-08-20_12-12-34.png" width="400">
+  &nbsp; &nbsp;
+  <img src="https://github.com/nrkam/MyPortfolio/blob/master/my-portfolio/components/scrins_for_github/2026-08-20_12-12-49.png" width="400">
+</p>
+
 
 ### Contact me
 - GitHub: [@nrkam](https://github.com/nrkam)
