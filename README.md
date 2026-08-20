@@ -24,8 +24,8 @@ This site showcases my projects, skills, and contact information.
 
 ### Screenshots
 ![Home page](https://github.com/nrkam/MyPortfolio/blob/master/my-portfolio/components/scrins_for_github/2026-08-20_12-12-34.png)
-![](https://github.com/nrkam/MyPortfolio/blob/master/my-portfolio/components/scrins_for_github/2026-08-20_12-12-40.png)
-![](https://github.com/nrkam/MyPortfolio/blob/master/my-portfolio/components/scrins_for_github/2026-08-20_12-12-49.png)
+<img scr="https://github.com/nrkam/MyPortfolio/blob/master/my-portfolio/components/scrins_for_github/2026-08-20_12-12-49.png" width=300>
+
 
 ### Contact me
 - GitHub: [@nrkam](https://github.com/nrkam)
