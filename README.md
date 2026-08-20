@@ -23,7 +23,7 @@ This site showcases my projects, skills, and contact information.
 - JavaScript
 
 ### Screenshots
-![Home page](https://github.com/nrkam/MyPortfolio/blob/master/my-portfolio/components/scrins_for_github/2026-08-20_12-12-34.png)
+![Home page](https://github.com/nrkam/MyPortfolio/blob/master/my-portfolio/components/scrins_for_github/2026-08-20_12-12-34.png=1000x1000)
 <img scr="my-portfolio/components/scrins_for_github/2026-08-20_12-12-49.png" width="300">
 
 
