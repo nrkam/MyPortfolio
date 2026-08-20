@@ -22,6 +22,9 @@ This site showcases my projects, skills, and contact information.
 - CSS3
 - JavaScript
 
+### Screenshots
+![Home page](https://github.com/nrkam/MyPortfolio/blob/master/my-portfolio/components/scrins_for_github/2026-08-20_12-12-34.png)
+
 ### Contact me
 - GitHub: [@nrkam](https://github.com/nrkam)
 - Telegram: [@shnurkami](https://t.me/shnurkami)
